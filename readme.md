@@ -5,8 +5,7 @@ you can view this page here: https://metarmonitor.fly.dev
 I thought it would be interesting to see if I could iterate on that idea with a Tableau dashboard as the user interface. I added historical data, and provided the user with the ability to select observation times in the past.
 
 Dashboard link:  
-https://public.tableau.com/app/profile/ben.curran/viz/METARMap/Dashboard2v
-
+https://public.tableau.com/views/METARMap/Dashboard2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
 ### software used:  
 - postman - initial api discovery  
