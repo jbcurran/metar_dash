@@ -11,6 +11,8 @@ The data is retrieved from https://aviationweather.gov/data/api/
 >- **check_data.py** queries the db to check if there are 24 observations per day
 >- **output.csv** is used to get the data into Tableau Public
 
+Note: The dataset was ingested into Tableau without the need for much transformation. There are a few calculated fields in Tableau that include the logic to determine if weather conditions permit solo flights. Using SQL to join METAR data with data from my ads-b receiver would provide an interesting challenge.
+
 Dashboard link:  
 https://public.tableau.com/views/METARMap/Dashboard2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
