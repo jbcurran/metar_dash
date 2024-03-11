@@ -25,6 +25,8 @@ https://public.tableau.com/views/METARMap/Dashboard2?:language=en-US&:sid=&:disp
 ### TODO - further possible iterations
 - Convert datetimes to local, API returns zulu
 - Provide better wind indicator viz with compass rose
+- Provide information on multiple cloud reports
+- Provide natural language weather observations
 - Run python script on cron to collect data everyday
 - Expand dataset to additional airports
 - Provide additional dashboards for analyzing metar patterns
