@@ -2,7 +2,14 @@
 In the summer of '23, I created a proof of concept for VFA that provided a simple webpage that displayed current METAR data for any airport.   This page would also alert the user if the METAR prohibited students from a solo flight, based on wind, visibility, or clouds.  
 you can view this page here: https://metarmonitor.fly.dev  
   
-I thought it would be interesting to see if I could iterate on that idea with a Tableau dashboard as the user interface. I added historical data, and provided the user with the ability to select observation times in the past.
+I thought it would be interesting to see if I could iterate on that idea with a Tableau dashboard as the user interface. 
+The objective is to provide the user with a simple dashboard to quickly understand the METAR data for a given observation.
+I added historical data, and provided the user with the ability to select observation times in the past.
+The data is retrieved from https://aviationweather.gov/data/api/
+
+>- **get_metar.py** retrieves the data and stores in a SQLite db (metar_observations.db)
+>- **check_data.py** queries the db to check if there are 24 observations per day
+>- **output.csv** is used to get the data into Tableau Public
 
 Dashboard link:  
 https://public.tableau.com/views/METARMap/Dashboard2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
@@ -15,7 +22,7 @@ https://public.tableau.com/views/METARMap/Dashboard2?:language=en-US&:sid=&:disp
 - github - code/data repository  
   
 
-### TODO - Things I would do if I kept working on this
+### TODO - further possible iterations
 - Convert datetimes to local, API returns zulu
 - Provide better wind indicator viz with compass rose
 - Run python script on cron to collect data everyday
