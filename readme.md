@@ -15,8 +15,8 @@ Dashboard link:
 https://public.tableau.com/views/METARMap/Dashboard2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
 Examples of Weather Limiting Solo Flights:
-February 28 at 19:00 - Wind at 26 kts
-March 4 at 6:00 - Clouds at 300 ft
+>- February 28 at 19:00 - Wind at 26 kts
+>- March 4 at 6:00 - Clouds at 300 ft
 
 ### software used:  
 - postman - initial api discovery  
